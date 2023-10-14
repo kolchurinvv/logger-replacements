@@ -1,0 +1,24 @@
+{
+  "name": "logger-contextual",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "type": "module",
+  "scripts": {
+    "watch": "rm -r lib && export ESB_WATCH=true && node ./esbuild.mjs",
+    "build": "rm -r lib && node ./esbuild.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.8.6",
+    "esbuild": "^0.19.4",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "path": "^0.12.7",
+    "url": "^0.11.3"
+  }
+}
